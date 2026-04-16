@@ -1,0 +1,49 @@
+    1  sudo -i
+    2  docker --version
+    3  docker ps
+    4  sudo docker ps
+    5  sudo usermod -aG docker $USER
+    6  newgrp docker
+    7  ls
+    8  docker ps
+    9  apt update
+   10  sudo apt update
+   11  sudo systemctl restart jenkins.service 
+   12  which docker
+   13  sudo systemctl restart jenkins.service 
+   14  docker info
+   15  sudo systemctl start docker && sudo systemctl status docker
+   16  docker ps
+   17  docker compose version
+   18  mkdir odoo-docker && cd odoo-docker && nano docker-compose.yml
+   19  docker compose up -d
+   20  docker ps
+   21  wsl --shutdown
+   22  ls
+   23  cd WebApp/
+   24  ls
+   25  docker ps
+   26  docker images
+   27  docker run
+   28  sudo service jenkins status 
+   29  wsl --shutdown
+   30  apt install wsl
+   31  code apt install wsl
+   32  sudo apt install wsl
+   33  wsl --shutdown
+   34  reboot
+   35  docker -v
+   36  ls 
+   37  cd docker-tp/
+   38  ls
+   39  cd app/
+   40  ls
+   41  clear
+   42  docker build -t tchoudjidombouyvanjunior-flask-app .
+   43  nano ~/.docker/config.json
+   44  docker build -t tchoudjidombouyvanjunior-flask-app .
+   45  docker run -d -p 5000:5000 --name flask-container tchoudjidombouyvanjunior-flask-app
+   46  docker login
+   47  docker tag tchoudjidombouyvanjunior-flask-app jokers577/tchoudjidombouyvanjunior-flask-app:latest
+   48  docker push jokers577/tchoudjidombouyvanjunior-flask-app:latest
+   49  history > ~/docker-tp/app/historique_commandes.txt
