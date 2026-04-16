@@ -1,0 +1,14 @@
+# Docker / volumes
+pritunl-vpn/volumes/
+*.db
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Jenkins / temp
+*.tmp
+
+# Git interne
+app/.git
